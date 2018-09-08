@@ -7,6 +7,13 @@ body {
   font-family: 'Lato';
 }
 
+<<<<<<< HEAD
+h1 {
+  font-family: 'Catamaran';
+  font-size: 155px;
+  
+} h2,
+=======
 h1{
   font-family: 'Catamaran';
   font-size: 30;
@@ -15,12 +22,14 @@ h2{
   font-family: 'Catamaran';
   font-size: 50;
 },
+>>>>>>> d7147f8aa333a990b8c7e2c43cf85f039b8663ea
 h3,
 h4,
 h5,
 h6 {
   font-family: 'Catamaran';
-  font-weight: 800 !important;
+  font-size: 155px;
+  
 }
 
 img{

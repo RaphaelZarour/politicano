@@ -189,3 +189,27 @@ header.masthead .bg-circle-4 {
   border-radius: 30px;
   border-style: none;
 }
+
+.teste{
+
+  padding: 0.75rem;
+  padding-top: 0.5rem;
+
+}
+
+.campobusca{
+
+  width: 60%;
+  margin-left: 0.5rem;
+
+
+}
+
+.botaovolta{
+
+  width: 40px;
+  height: 40px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+}

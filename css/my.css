@@ -9,13 +9,11 @@ body {
 
 h1{
   font-family: 'Catamaran';
-  //font-weight: 150 !important;
-  font-size: 40px;
+  font-size: 30;
 },
 h2{
   font-family: 'Catamaran';
-  //font-weight: 75 !important;
-  font-size: 10px;
+  font-size: 50;
 },
 h3,
 h4,
@@ -31,9 +29,7 @@ img{
   padding-bottom: 1.5rem;
 }
 
-button{
-  color: #95EB6C;
-}
+
 
 .btn-xl {
   text-transform: uppercase;
@@ -174,4 +170,13 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+.button{
+  background-color: #95EB6C;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 30px;
+  border-style: none;
 }

@@ -7,16 +7,11 @@ body {
   font-family: 'Lato';
 }
 
-<<<<<<< HEAD
-h1 {
-  font-family: 'Catamaran';
-  font-size: 155px;
-  
-} h2,
-=======
+
 h1{
   font-family: 'Catamaran';
   font-size: 30;
+  color:#FFFFF;
 },
 h2{
   font-family: 'Catamaran';
@@ -81,7 +76,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(2rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #00C906 0%, #C3FF41 100%);
+  background: #009C3B;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;

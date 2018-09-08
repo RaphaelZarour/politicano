@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Politicano</title>
+    <title>One Page Wonder - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,38 +26,18 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+      <input type="button" value="Voltar" onClick="history.go(-1)"> 
       <div class="container">
-        
+        <a class="navbar-brand" href="#">Acompanhando Meu Político</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
-          </ul>
-        </div>
+          <form action="salvar_dados.php" method="post">
+            <input type="text" placeholder="Digite aqui"> <br/>
+           <input type="submit" value="Enviar">
+        </form>
       </div>
     </nav>
-
-    <header class="masthead text-center text-black">
-      <div class="masthead-content">
-        <div class="container">
-          <img src="Logo.png">
-          <h1 class="masthead-heading mb-0">Veja o que seu candidato está fazendo!</h1>
-          <h2 class="masthead-subheading mb-0">Acompanhando Meu Político é uma aplicação que te auxília a acompanhar de maneira simples e proativa os candidatos à Deputado Federal, de modo a ver os projetos que ja realizaram e ser notificado de novos projetos lançados.</h2>
-          <button type="button" class="btn btn-info" color="95EB6C">
-              Enconte seu candidato
-            </button>
-        </div>
-      </div>
-  
-    </header>
-
-    <!-- Footer -->
-    <footer class="py-5 bg-black">
-      <div class="container">
-        <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>

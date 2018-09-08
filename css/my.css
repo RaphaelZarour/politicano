@@ -7,11 +7,24 @@ body {
   font-family: 'Lato';
 }
 
+<<<<<<< HEAD
 h1 {
   font-family: 'Catamaran';
   font-size: 155px;
   
 } h2,
+=======
+h1{
+  font-family: 'Catamaran';
+  //font-weight: 150 !important;
+  font-size: 40px;
+},
+h2{
+  font-family: 'Catamaran';
+  //font-weight: 75 !important;
+  font-size: 10px;
+},
+>>>>>>> d7147f8aa333a990b8c7e2c43cf85f039b8663ea
 h3,
 h4,
 h5,
@@ -19,6 +32,16 @@ h6 {
   font-family: 'Catamaran';
   font-size: 155px;
   
+}
+
+img{
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+button{
+  color: #95EB6C;
 }
 
 .btn-xl {
@@ -60,9 +83,9 @@ h6 {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
+  padding-top: calc(2rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background: linear-gradient(0deg, #00C906 0%, #C3FF41 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
